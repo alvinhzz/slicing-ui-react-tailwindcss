@@ -8,13 +8,14 @@
   body {
     @apply font-[Poppins];
   }
-  .select-point li {
-    @apply mx-6 my-2;
-  }
+
   .link-1 {
-    @apply hover:bg-black hover:text-white duration-300 hover:py-2 hover:px-3 hover:rounded-md;
+    @apply hover:bg-black mx-4 hover:text-white duration-300 hover:py-2 hover:px-3 hover:rounded-md;
   }
   .btn-1 {
-    @apply bg-black text-white px-3 py-2 rounded-md;
+    @apply bg-black ml-4 text-white px-3 py-2 rounded-md;
+  }
+  .btn-2 {
+    @apply bg-white m-4 text-black px-3 py-2 rounded-md;
   }
 }
